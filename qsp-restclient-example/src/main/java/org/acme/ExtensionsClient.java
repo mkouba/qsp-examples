@@ -1,7 +1,6 @@
 package org.acme;
 
 import java.util.Set;
-import java.util.concurrent.CompletionStage;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
