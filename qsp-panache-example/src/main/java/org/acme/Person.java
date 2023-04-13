@@ -2,9 +2,8 @@ package org.acme;
 
 import java.time.LocalDate;
 
-import javax.persistence.Entity;
-
 import io.quarkus.hibernate.orm.panache.PanacheEntity;
+import jakarta.persistence.Entity;
 
 @Entity
 public class Person extends PanacheEntity {

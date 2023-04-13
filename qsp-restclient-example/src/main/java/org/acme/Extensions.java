@@ -4,12 +4,11 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-import javax.inject.Named;
-import javax.inject.Singleton;
-
 import org.eclipse.microprofile.rest.client.inject.RestClient;
 
 import io.smallrye.mutiny.Uni;
+import jakarta.inject.Named;
+import jakarta.inject.Singleton;
 
 @Named
 @Singleton
